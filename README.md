@@ -76,12 +76,11 @@ Testing Environments: Self-Hosted Cowrie Honeypot  •  Kali Linux  •  ASUSWRT
 ---
 
 ### 🏰 Practical Cyber Range & Homelab Architecture
-I maintain a hands-on distributed homelab infrastructure (`kn8design.com`) used as a practical testbed for network security and defensive operations:
+I maintain a hands-on distributed homelab infrastructure used as a practical testbed for network security and defensive operations:
 
-* **Sacrificial Honeypot Node:** Isolated Cowrie SSH/Telnet honeypot node with strict outbound egress filtering to log and analyze real-world brute-force attack telemetry.
 * **Single Packet Authorization (fwknop):** Drop-all perimeter firewall on edge nodes unlocked exclusively via encrypted SPA knocks on UDP 62201.
 * **Zero-Trust Access & Identity:** Authelia 2FA SSO integration with LLDAP, CrowdSec automated intrusion prevention, and isolated Tailscale/WireGuard mesh.
-* 📖 **Detailed Architecture & Security Runbooks:** [git.kn8design.com/nathan/homelab-docs](https://git.kn8design.com/nathan/homelab-docs)
+
 
 ---
 
