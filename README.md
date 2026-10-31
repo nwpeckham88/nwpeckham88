@@ -2,87 +2,90 @@
 
 # Hi, I'm Nathan 👋
 
-**Systems, Security & Full-Stack Engineer**  
-*Building high-performance backends, resilient self-hosted infrastructure, and developer tooling.*
+### **Cybersecurity Student & Aspiring Security Engineer**
+*Focusing on Network Security, Threat Detection & SIEM, Incident Response, and Defensive Infrastructure.*
 
 [![Website](https://img.shields.io/badge/Website-kn8design.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white)](https://kn8design.com)
 [![GitHub](https://img.shields.io/badge/GitHub-nwpeckham88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nwpeckham88)
-[![Homelab Docs](https://img.shields.io/badge/Homelab-Docs-10b981?style=flat-square&logo=git&logoColor=white)](https://git.kn8design.com/nathan/homelab-docs)
+[![Homelab Security Architecture](https://img.shields.io/badge/Homelab-Security_Docs-10b981?style=flat-square&logo=git&logoColor=white)](https://git.kn8design.com/nathan/homelab-docs)
 
 ---
 
 </div>
 
-### 🛠️ Core Technical Stack
+### 🎯 Core Cybersecurity Competencies
 
 ```text
-Languages:       Rust  •  Go  •  TypeScript  •  Python  •  C++  •  Svelte / SvelteKit
-Systems & Infra: Linux (Debian)  •  Docker & Compose  •  Ansible  •  Caddy  •  WireGuard / NetBird
-Data & Storage:  PostgreSQL  •  SQLite / SQLx  •  Rclone  •  Redis
-Security & Ops:  SIEM (Vigilant)  •  Recon & IOC Auditing  •  Zero-Trust Edge Gateways (Authelia, CrowdSec)
+Security Operations:  SIEM & Log Analysis  •  Threat Detection & IOC Hunting  •  Incident Response (IR)
+Network Security:     Zero-Trust Architecture  •  VLAN Segmentation  •  Single Packet Authorization (fwknop)
+Defensive Hardening:  Intrusion Prevention (CrowdSec/Fail2ban)  •  Authelia 2FA SSO  •  WireGuard / Headscale
+Security Tooling:     Go  •  Rust  •  Python  •  Bash/Shell  •  Protocol Reverse Engineering
+Testing Environments: Self-Hosted Cowrie Honeypot  •  Kali Linux  •  ASUSWRT Hardening
 ```
 
 ---
 
-### 🚀 Featured Engineering Projects
+### 🛡️ Featured Security Projects
 
 <br>
 
-#### 🦀 [supafast-jellyfin](https://github.com/nwpeckham88/supafast-jellyfin)
-> **High-Performance Media Normalizer, Deduplicator & Rollback Engine**  
-> *Stack: Rust (Axum, Tokio) • SvelteKit • PostgreSQL • Filesystem Path Guards*
-* **Architecture:** Implements a strict two-phase execution pipeline (**Scan ➔ Preview ➔ Execute**) with filesystem path locking to safely normalize messy scene/release filenames without modifying source roots.
-* **Reliability:** Built-in persistent transaction audit logging with one-click rollback support, idempotent execution keys, and sub-millisecond duplicate detection.
-
-<br>
-
-#### ⚡ [updu](https://github.com/nwpeckham88/updu)
-> **Lightweight, Single-Binary Self-Hosted Uptime Monitoring**  
-> *Stack: Go • Svelte • Embedded Assets*
-* **Architecture:** Minimalist, self-contained health monitor packaged into a single deployable binary.
-* **Performance:** Capable of running effortlessly across edge SBCs (Raspberry Pi Zero) and cloud VPS nodes with embedded web UI and instant alert dispatching.
-
-<br>
-
-#### 🌐 [cisco-ios-tplink](https://github.com/nwpeckham88/cisco-ios-tplink)
-> **Interactive Cisco IOS CLI & Protocol SDK for Managed Switches**  
-> *Stack: Go • Low-Level Networking • Protocol Reverse Engineering*
-* **Architecture:** Re-engineers the proprietary configuration protocol of TP-Link TL-SG108E switches into an interactive Cisco IOS-like shell environment.
-* **Utility:** Provides network engineers with programmatic VLAN tagging, port duplexing, and link state diagnostics over standard CLI workflows.
-
-<br>
-
-#### 🐳 [quick-compose](https://github.com/nwpeckham88/quick-compose)
-> **Visual Docker Compose Assembler & Configuration Validator**  
-> *Stack: TypeScript • React / Modern Web • Docker Compose Spec*
-* **Architecture:** Interactive web-based workspace designed to draft, validate, and assemble modular multi-container Docker Compose stacks.
-* **Developer Experience:** Live YAML preview, syntax error highlighting, and exportable service definitions.
-
-<br>
-
-#### 🛡️ [quixote](https://github.com/nwpeckham88/quixote)
+#### 🔍 [quixote](https://github.com/nwpeckham88/quixote)
 > **Security Assessment, Reconnaissance & Pentesting Workbench**  
-> *Stack: Go • Cybersecurity Operations*
-* **Architecture:** Modular security assessment framework for learning, testing, and recording network penetration testing workflows.
-* **Features:** Structured evidence recording, IOC-driven discovery, and repeatable reconnaissance logs.
+> *Stack: Go • Offensive Security • Reconnaissance Automation*
+* **Purpose:** A modular CLI workbench built for automating security reconnaissance, capturing host intelligence, and structuring penetration testing evidence.
+* **Key Capabilities:** Streamlined target enumeration, repeatable reconnaissance logs, and structured IOC recording for post-assessment reporting.
 
 <br>
 
 #### 🎲 [bandb](https://github.com/nwpeckham88/bandb)
-> **AI-Narrated Incident Response Tabletop Simulation**  
-> *Stack: JavaScript • Web Components • LLM Integration*
-* **Architecture:** Interactive digital web implementation of the *Backdoors & Breaches* cyber incident response tabletop game.
-* **AI Integration:** Dynamically generated tactical scenarios, automated dice mechanics, and AI incident master narration.
+> **Interactive Incident Response Tabletop Simulation (*Backdoors & Breaches*)**  
+> *Stack: JavaScript • LLM/AI Incident Master • Defensive Tactics*
+* **Purpose:** A digital implementation of Black Hills Information Security's *Backdoors & Breaches* incident response game.
+* **Training Value:** Simulates security breach escalation scenarios, MITRE ATT&CK defensive responses, procedural dice mechanics, and AI-driven tactical scenario narration.
+
+<br>
+
+#### 🚨 [security-resources](https://github.com/nwpeckham88/security-resources)
+> **Perimeter Security Auditing & IOC-Driven Detection Suite**  
+> *Stack: Shell • Network Hardening • ASUSWRT-Merlin Security*
+* **Purpose:** Hardening scripts and threat detection checks built specifically for edge gateway and router environments.
+* **Key Capabilities:** Scans for compromised host IOCs, monitors unauthorized DNS redirects, inspects dropped firewall states, and enforces perimeter baseline security.
+
+<br>
+
+#### 🌐 [cisco-ios-tplink](https://github.com/nwpeckham88/cisco-ios-tplink)
+> **Network Switch Protocol Reverse Engineering & VLAN Management CLI**  
+> *Stack: Go • Layer 2 Protocols • Network Infrastructure*
+* **Purpose:** Reverse-engineered the proprietary configuration protocol of TP-Link TL-SG108E switches to provide a robust, Cisco IOS-like interactive CLI.
+* **Security Application:** Enables scripted VLAN segmentation, port isolation, link status audits, and programmatic network isolation across homelab switch hardware.
+
+<br>
+
+#### 🦀 [supafast-jellyfin](https://github.com/nwpeckham88/supafast-jellyfin)
+> **Memory-Safe Defensive Systems Programming & Audit Rollback Engine**  
+> *Stack: Rust (Axum, Tokio) • Strict Path Lock Guards • Immutable Audit Logs*
+* **Security Focus:** Demonstrates secure-by-default software engineering in pure Rust.
+* **Defense-in-Depth:** Implements strict path-traversal confinement (preventing operations outside authorized roots), in-memory concurrency locks, and persistent transactional audit logging with deterministic one-click rollback.
+
+<br>
+
+#### ⚡ [updu](https://github.com/nwpeckham88/updu)
+> **Lightweight Infrastructure & Service Availability Monitor**  
+> *Stack: Go • Single-Binary • Self-Hosted Telemetry*
+* **Security Focus:** Reliable uptime and telemetry verification across edge gateways and cloud nodes without external SaaS dependencies or third-party credential exposure.
 
 ---
 
-### 🏡 Distributed Homelab & Edge Architecture
-Beyond software applications, I design and maintain a multi-node distributed infrastructure connecting edge VPS gateways (Debian 13, Caddy, Authelia SSO, Headscale) with internal compute nodes running containerized workloads, localized AI models (RK3588 NPU), and redundant storage.
+### 🏰 Practical Cyber Range & Homelab Architecture
+I maintain a hands-on distributed homelab infrastructure (`kn8design.com`) used as a practical testbed for network security and defensive operations:
 
-* 📖 **Public Homelab Architecture & Runbooks:** [git.kn8design.com/nathan/homelab-docs](https://git.kn8design.com/nathan/homelab-docs)
+* **Sacrificial Honeypot Node:** Isolated Cowrie SSH/Telnet honeypot node with strict outbound egress filtering to log and analyze real-world brute-force attack telemetry.
+* **Single Packet Authorization (fwknop):** Drop-all perimeter firewall on edge nodes unlocked exclusively via encrypted SPA knocks on UDP 62201.
+* **Zero-Trust Access & Identity:** Authelia 2FA SSO integration with LLDAP, CrowdSec automated intrusion prevention, and isolated Tailscale/WireGuard mesh.
+* 📖 **Detailed Architecture & Security Runbooks:** [git.kn8design.com/nathan/homelab-docs](https://git.kn8design.com/nathan/homelab-docs)
 
 ---
 
 <div align="center">
-<sub>Designed and maintained by Nathan Peckham • Powered by open source</sub>
+<sub>Nathan Peckham • Cybersecurity Student & Security Engineer</sub>
 </div>
