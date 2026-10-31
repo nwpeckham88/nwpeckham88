@@ -7,7 +7,7 @@
 
 [![Website](https://img.shields.io/badge/Website-kn8design.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white)](https://kn8design.com)
 [![GitHub](https://img.shields.io/badge/GitHub-nwpeckham88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nwpeckham88)
-[![Homelab Security Architecture](https://img.shields.io/badge/Homelab-Security_Docs-10b981?style=flat-square&logo=git&logoColor=white)](https://git.kn8design.com/nathan/homelab-docs)
+
 
 ---
 
