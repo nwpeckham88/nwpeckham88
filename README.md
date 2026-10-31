@@ -5,7 +5,6 @@
 ### **Cybersecurity Student & Aspiring Security Engineer**
 *Focusing on Network Security, Threat Detection & SIEM, Incident Response, and Defensive Infrastructure.*
 
-[![Website](https://img.shields.io/badge/Website-kn8design.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white)](https://kn8design.com)
 [![GitHub](https://img.shields.io/badge/GitHub-nwpeckham88-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nwpeckham88)
 
 
